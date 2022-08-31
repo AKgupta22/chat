@@ -1,4 +1,4 @@
-const socket = io('https://akchat.netlify.app:8000')
+const socket = io('http://localhost:8000')
 
 const name = prompt("Enter your name")
 socket.emit("new-user-joined", name)
