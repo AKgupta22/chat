@@ -1,0 +1,13 @@
+Socket IO: It is a library that enables realtime bydirectional and events based communication b/w client(browser) and server.
+it consist of a node js server and a js client library for browser.
+Install NPM i Socket.io
+ Its main features:
+ Reliability: Connection are etablished even in the presence of :
+ 1- Proxies and load balancers.
+ 2- Personal  firewall and antivirus software.
+
+ Auto Reconnection support : Disconnected client allways try to reconnect untill server available.
+ and client to know that other one is not responding.
+ Disconnection Detection: A heartbeat method implemented here that allow to know both client and server that whether
+ they are responding or not.
+ 
